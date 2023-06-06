@@ -63,5 +63,14 @@
       "view": "https://sso.smkn1kutasari.sch.id",
       "code": "#"
     }
+  },{
+    "name": "Website Dzahin Hair",
+    "desc": "WordPress website offering premium hair extensions for effortless style transformations.",
+    "image": "dzahinhair",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.dzahinhair.com",
+      "code": "#"
+    }
   }
 ]

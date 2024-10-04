@@ -72,5 +72,14 @@
       "view": "https://www.dzahinhair.com",
       "code": "#"
     }
+  },{
+    "name": "Website Youty Hair Company",
+    "desc": "WordPress website offering premium hair extensions for effortless style transformations.",
+    "image": "youtyhaircompany",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.youtyhaircompany.com",
+      "code": "#"
+    }
   }
 ]

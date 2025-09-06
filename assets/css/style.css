@@ -1211,13 +1211,16 @@ form .button-area {
   position: fixed;
   top: -140%;
   right: 2rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   font-size: 2rem;
   background: #ffae00;
   color: rgb(13, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #scroll-top.active {
   top: calc(100% - 12rem);

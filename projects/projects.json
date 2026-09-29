@@ -51,7 +51,7 @@
     "image": "merdeka",
     "category": "basicweb",
     "links": {
-      "view": "https://km.smkn1kutasari.sch.id",
+      "view": "#",
       "code": "#"
     }
   },{
@@ -69,7 +69,7 @@
     "image": "dzahinhair",
     "category": "basicweb",
     "links": {
-      "view": "https://www.dzahinhair.com",
+      "view": "#",
       "code": "#"
     }
   },{
@@ -78,7 +78,7 @@
     "image": "youtyhaircompany",
     "category": "basicweb",
     "links": {
-      "view": "https://www.youtyhaircompany.com",
+      "view": "#",
       "code": "#"
     }
   }

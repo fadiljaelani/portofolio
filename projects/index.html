@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fadil jaelani, projects, portfolio projects, full stack web developer, mern stack, laravel, web apps" />
+    <meta name="description" content="Discover featured web development and software engineering projects by Fadil Jaelani, including MERN stack applications, Laravel portals, and web apps." />
+    <link rel="canonical" href="https://fj.smkn1kutasari.sch.id/projects/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects | Portfolio Fadil Jaelani">
+    <meta property="og:description" content="Discover featured web development and software engineering projects by Fadil Jaelani, including MERN stack applications, Laravel portals, and web apps.">
+    <meta property="og:url" content="https://fj.smkn1kutasari.sch.id/projects/">
+    <meta property="og:site_name" content="Fadil Jaelani Portfolio">
+    <meta property="og:image" content="https://fj.smkn1kutasari.sch.id/assets/images/projects/sias.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@fadil_jaelani">
+    <meta name="twitter:creator" content="@fadil_jaelani">
+    <meta name="twitter:title" content="Projects | Portfolio Fadil Jaelani">
+    <meta name="twitter:description" content="Discover featured web development and software engineering projects by Fadil Jaelani, including MERN stack applications, Laravel portals, and web apps.">
+    <meta name="twitter:image" content="https://fj.smkn1kutasari.sch.id/assets/images/projects/sias.png">
+
     <link rel="stylesheet" href="./style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <title>Projects | Portfolio Fadil Jaelani</title>
 </head>
 <body oncontextmenu="return false">
@@ -23,8 +46,9 @@
             <li><a href="/#about">About</a></li>
             <li><a href="/#skills">Skills</a></li>
             <li><a href="/#education">Education</a></li>
-            <li><a class="active" href="/#work">Work</a></li>
+            <li><a href="/#work">Work</a></li>
             <li><a href="/#experience">Experience</a></li>
+            <li><a class="active" href="/projects/">Projects</a></li>
             </ul>
         </nav>
 </header>
@@ -33,7 +57,11 @@
 <!-- work project section starts -->
 <section class="work" id="work">
 
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+  <h1 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h1>
+
+  <p class="projects-intro" style="text-align: center; max-width: 800px; margin: 1rem auto 2.5rem; font-size: 1.6rem; color: #555; line-height: 1.6;">
+    Explore a collection of web applications, school portals, and client websites developed by Fadil Jaelani using MERN Stack, Laravel, CodeIgniter, and WordPress. Filter projects below by technology stack.
+  </p>
   
   <div id="filters" class="button-group">
     <button class="btn is-checked" data-filter="*">All Projects</button>
@@ -44,34 +72,211 @@
   </div>
 
   <div class="box-container">
-
-    <!-- <div class="box tilt">
-      <img src="/assets/images/projects/agecalc.PNG" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/lokabaca.png" alt="Website Loka Baca" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Website Loka Baca</h3>
+          </div>
+          <div class="desc">
+            <p>Educational WordPress site offering informative articles for learning and growth.</p>
+            <div class="btns">
+              <a href="https://lokabaca.com" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </div> -->   
-
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/smkn1kutasari.png" alt="Website SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Website SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>Educational WordPress site offering informative articles for learning and growth.</p>
+            <div class="btns">
+              <a href="https://smkn1kutasari.sch.id" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/ujian.png" alt="Ujian SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Ujian SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>CodeIgniter-powered web app for efficient and secure exam administration.</p>
+            <div class="btns">
+              <a href="https://ujian.smkn1kutasari.sch.id" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/sias.png" alt="SIAS SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>SIAS SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>CodeIgniter-based web app for streamlined school assistant management.</p>
+            <div class="btns">
+              <a href="https://sias.smkn1kutasari.sch.id" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/simnilai.png" alt="Simnilai SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Simnilai SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>CodeIgniter-powered web app for comprehensive student assessment and evaluation.</p>
+            <div class="btns">
+              <a href="https://simnilai.smkn1kutasari.sch.id" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/merdeka.png" alt="Merdeka SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Merdeka SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>Laravel-driven web app for holistic student assessment and evaluation.</p>
+            <div class="btns">
+              <a href="#" class="btn"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/sso.png" alt="SSO SMKN 1 Kutasari" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>SSO SMKN 1 Kutasari</h3>
+          </div>
+          <div class="desc">
+            <p>Laravel-based web app for seamless SSO login experience.</p>
+            <div class="btns">
+              <a href="https://sso.smkn1kutasari.sch.id" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/dzahinhair.png" alt="Website Dzahin Hair" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Website Dzahin Hair</h3>
+          </div>
+          <div class="desc">
+            <p>WordPress website offering premium hair extensions for effortless style transformations.</p>
+            <div class="btns">
+              <a href="#" class="btn"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item basicweb">
+      <div class="box tilt" style="width: 380px; margin: 1rem">
+        <img draggable="false" src="/assets/images/projects/youtyhaircompany.png" alt="Website Youty Hair Company" loading="lazy" decoding="async" />
+        <div class="content">
+          <div class="tag">
+            <h3>Website Youty Hair Company</h3>
+          </div>
+          <div class="desc">
+            <p>WordPress website offering premium hair extensions for effortless style transformations.</p>
+            <div class="btns">
+              <a href="#" class="btn"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="backbtn">
     <a href="/#work" class="btn">
         <i class="fas fa-arrow-left"></i>
         <span>Back to Home</span>
-  </a>
+    </a>
   </div>
 
 </section>
 <!-- work project section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Fadil's Portofolio</h3>
+          <p>Thank you for visiting my personal portofolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="/#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="/#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="/#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="/#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="/#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="/#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+          <a href="/projects/"><i class="fas fa-chevron-circle-right"></i> projects</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+62 858-0833-5821</p>
+          <p> <i class="fas fa-envelope"></i>fadiljaelani@smkn1kutasari.sch.id</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Purbalingga, Jawa Tengah, Indonesia-53361</p>
+          <div class="share">
+              <a href="https://www.linkedin.com/in/fadiljaelani/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://github.com/fadiljaelani" class="fab fa-github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"></a>
+              <a href="mailto:fadiljaelani@smkn1kutasari.sch.id" class="fas fa-envelope" aria-label="Mail" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://x.com/fadil_jaelani" class="fab fa-twitter" aria-label="Twitter" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://wa.me/6285808355821" class="fab fa-whatsapp" aria-label="Whatsapp" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+      </div>
+  </div>
+
+  <div class="credit">Designed with <i class="fas fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/fadiljaelani/" target="_blank" rel="noopener noreferrer">Fadil Jaelani</a></div>
+
+</section>
+<!-- footer section ends -->
 
 <!-- scroll top btn -->
 <a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
@@ -86,7 +291,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- scroll reveal anim -->
-<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
 
 <!-- isotope filter plugin cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

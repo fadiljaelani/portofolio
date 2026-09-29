@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /private/
+
+Sitemap: https://fj.smkn1kutasari.sch.id/sitemap.xml
